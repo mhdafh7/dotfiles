@@ -1,0 +1,33 @@
+# Disable the blank line at the start of the prompt
+add_newline = true
+
+[character]
+success_symbol = "[ ➜](bold #EDF6E5) "
+error_symbol = "[ ➜](bold #F67280) "
+
+[directory]
+format = "[$path]($style)[  ](bold #B5EAEA)[$read_only]($read_only_style) "
+style = "bold #B5EAEA"
+read_only = ""
+read_only_style = "bold #F67280"
+
+[git_branch]
+format = "[$symbol$branch]($style) "
+style = "bold #F6DEF6"
+truncation_length = 4
+truncation_symbol = ""
+
+[git_status]
+style = "bold #F67280"
+
+[git_commit]
+style = "bold #A7E9AF"
+
+[nodejs]
+format = "[  $version](bold #A7E9AF) "
+
+[package]
+disabled = true 
+
+[cmd_duration]
+disabled = true 
